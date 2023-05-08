@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    //UNICODESTANDARD MEANS EACH AND EVERY STRING HAS ITS OWN VALUE TO STORE IN BACKGROUND
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>celcius to fahrenheit</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2>Celcius to Fahrenheit</h2>
+    <div class="celcius">
+        <input type="text" id="cel" placeholder="°C">
+    </div>
+    <div class="but">
+        <button type="submit" onclick=converts()>Convert</button>
+    </div>
+    <div id="resul">
+        
+    </div>
+    
+    
+    
+    <script>
+        const test = " En vazii tanii vazii "
+        function converts(){
+        const val1=Number(document.getElementById("cel").value)
+        const val2= (val1*9/5)+32
+        const val3=document.getElementById("resul")
+        val3.innerHTML=val2
+    }
+    </script>
+</body>
+
+</html>

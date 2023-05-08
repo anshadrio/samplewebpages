@@ -1,0 +1,91 @@
+/* Body styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    background: #f2f2f2;
+    color: #333;
+  }
+  
+  /* Header styles */
+  h2 {
+    font-size: 36px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  /* Celsius input styles */
+  .celsius {
+    margin: 50px auto;
+    text-align: center;
+  }
+  
+  .celsius input {
+    width: 80%;
+    max-width: 300px;
+    padding: 15px;
+    font-size: 24px;
+    background-color: #fff;
+    border: none;
+    border-radius: 5px;
+    color: #333;
+    text-align: center;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Convert button styles */
+  .but {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .but button {
+    padding: 15px 30px;
+    background-color: #333;
+    border: none;
+    border-radius: 50px;
+    color: #fff;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .but button:hover {
+    background-color: #555;
+  }
+  
+  /* Result styles */
+  #resul {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 36px;
+    font-weight: 700;
+  }
+  
+
+  .celcius {
+  margin: 50px auto;
+  text-align: center;
+}
+
+.celcius input {
+  width: 80%;
+  max-width: 300px;
+  padding: 15px;
+  font-size: 24px;
+  background-color: #1c1c1c;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5) inset;
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.celcius input:focus {
+  outline: none;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.8) inset;
+}
+
+.celcius input::placeholder {
+  color: #666;
+}

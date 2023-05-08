@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- <h1 id="name">Math Script</h1>
+    <div id = "result">
+        
+    </div>
+
+    <script>
+       // let name = "Anshad";
+       const names = document.getElementById("name")
+let randomIndex = Math.floor(Math.random() * name.length);
+const test = document.getElementById("result")
+//let randomLetter = name[randomIndex];
+test = randomLetter;
+    </script> -->
+
+<div id = "disco"></div>
+
+// ECMAScript or ES6
+//1
+<script>
+    let firstName = "Anshad"
+    let lastName = "Ali"
+    let city = "chennai"
+
+    let result = `${firstName} ${lastName} lives in ${city}`
+
+    console.log(result)
+//2
+    let num1 ="5"
+    let num2 = "$95"
+
+    let find = `You have ${num1} items in your cart. Your bill amount is ${num2}`
+
+    console.log(find)
+
+//Arrays 
+
+let arr = ['a','b','c','aeiou',[2,4],[5,6]]
+
+console.log(arr[1])
+console.log(arr.length)
+console.log(arr[4][1])
+console.log(arr[5])
+
+//2D Arrays: and more number of dimensions depends on their indexing one inside one
+
+let arra = [[1,2],[3,4],[5,6],[7,8,0],[9,10]]
+
+console.log(arra.length)
+console.log(arra[3])
+console.log(arra[3][2])
+
+arra.push([11,12])
+console.log(arra)
+console.log(arra.length)
+
+console.log(arra.pop()) //deleting last element
+console.log(arra.length)
+
+console.log(arra.shift()) //deleting first element
+console.log(arra.length)
+
+console.log(arra.unshift(1)) // adding element in first index
+console.log(arra)
+
+delete arra[0]   //delete the index value and left the index space free
+console.log(arra.length)
+console.log(arra)
+
+arra.splice(0,2,[1,2])         //delete the element and connect next element in order (index to add value,how many values to delete inside it,adding value)
+console.log(arra.length)
+console.log(arra)
+
+arra.splice(0,0,"Anshad")
+console.log(arra)
+
+// console.log(arra.slice(-3,-0))
+
+console.log(arra.reverse())
+
+let str = arra.join()  //coverting array to string
+console.log(str)
+
+let str1 = "a,b,c,d,e"
+let arra1 = str1.split(',')   //coverting string to array
+console.log(arra1)
+
+
+//concat and spread operation
+
+let arr1 = [1,2,3,4,5]
+let arr2 = [6,7,8,9,10]
+
+let res1 = [arr1,arr2] //2dimensional array 
+console.log(res1)
+
+let res2 = [arr1+arr2]
+console.log(res2)
+
+let joinarr = arr1.concat(arr2) //concat operation
+console.log(joinarr)
+
+let join = [...arr1,...arr2] //spread operation
+console.log(join,"spread operator")
+
+//EXERCISE
+
+let Arr = [5,8,10,7,9,11] 
+
+//replace 7,9,11 with 17,19,111
+
+let re = Arr.splice(3,3,17,19,111)
+console.log(Arr)
+
+//Insert 100 in the begining
+
+let re1 =Arr.unshift(100)
+console.log(Arr,"hai")
+
+//Add 200 in last  but one index
+
+let re2 = Arr.splice(Arr.length-1,0,200)
+console.log(Arr);
+
+//Add 100 at the end
+
+let re3 = Arr.push(1000)
+console.log(Arr)
+
+// Insert 0 in the middle
+
+let re4 = Arr.splice(Arr.length-4,0,0)
+console.log(Arr);
+
+const abs=document.getElementById("disco").innerHTML=Arr //to display in webpage
+console.log(abs,"ghgch")
+
+const j = 100
+const k = 20
+
+if (j>k)
+console.log("J is smaller")
+else
+console.log("K is greater")
+
+let cap
+
+if (j>k)
+cap = j
+else
+cap = k
+
+
+console.log(cap)
+
+console.log(cap = j>k?j:k)   //Conditional operator or Ternery operator
+
+const l = "T"
+const m = "F"
+console.log(j+k==120?l:m)
+
+
+
+</script>
+</body>
+</html>

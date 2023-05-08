@@ -1,0 +1,79 @@
+/* Global styles */
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  border: steelblue;
+  max-width: 500px;
+  max-height: 200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h2 {
+  border: #0062cc;
+  text-align: center;
+  font-size: 32px;
+  margin-top: 0;
+}
+
+/* Styles for the dropdown menu and button */
+.inputdiv {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+select {
+  padding: 10px;
+  font-size: 18px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+  margin-right: 10px;
+}
+
+button {
+  /* right: 20px; */
+  /* justify-content: center; 
+  position:absolute;
+  padding: 10px; */
+
+  margin: 0;
+  position: absolute;
+  top: 30%;
+  left: 45%;
+  /* -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+   */
+
+
+  
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  background-color: #66704d;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+button:hover {
+  background-color: #000000;
+}
+
+/* Styles for the resulting div */
+#resulting {
+  padding: 80px;
+  border: 5px solid #ccc;
+  border-radius: 1px;
+  background-color: #f2f2f2;
+  margin-bottom: 50px;
+  font-size: 18px;
+}
+
+
+
